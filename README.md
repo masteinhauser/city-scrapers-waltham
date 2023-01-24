@@ -25,10 +25,10 @@ In order to set up a City Scrapers project for your area you'll need a GitHub ac
 4. Create a Python 3.8 virtual environment and install development dependencies with:
 
    ```shell
-   pipenv install --dev --python 3.8
+   pipenv install --dev --python 3.11.1
    ```
 
-   If you want to use a version other than 3.8 (3.6 and above are supported), you can change the version for the `--python` flag.
+   If you want to use a version other than 3.11.1 (3.8 and above are supported), you can change the version for the `--python` flag.
 
 5. Decide whether you want to output static files to AWS S3, Microsoft Azure Blob Storage, or Google Cloud Storage, and update the `city-scrapers-core` package with the necessary extras:
 
